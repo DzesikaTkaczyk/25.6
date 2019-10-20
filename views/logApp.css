@@ -1,0 +1,26 @@
+.logapp {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: black;
+	padding: 5px 10px;
+	font-size: 20px;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+}
