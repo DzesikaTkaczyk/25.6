@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 app.set('view engine', 'pug');
-app.set('views','./views');
+app.set('views', './views');
 
 
-app.use('/store/', function(req, res, next){
+app.use('/store', function(req, res, next){
 	console.log('Jestem pośrednikiem przy żądaniu do /store');
 	next();
 });
